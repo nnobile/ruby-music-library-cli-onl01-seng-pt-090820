@@ -43,7 +43,7 @@ class Song
     end
 
     def self.find_by_name(name)
-      self.find_by_name(song) || song = Song.new(song)
+      @@all.detect {|song| song.name == self}
     end
 
 
