@@ -42,7 +42,7 @@ class Song
       new_song
     end
 
-    def self.find_by_name(name)
+    def self.find_by_name
       @@all.detect do |song|
         self.song.name
     end
