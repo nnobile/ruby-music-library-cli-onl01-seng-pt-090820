@@ -36,6 +36,17 @@ class Genre
       end
     end
 
+    def artists
+      # genres returns a collection of genres for all of the artist's songs
+      # artist has many genres through songs
+      # does not return duplicate genres if the artist has more than one song of a particular genre
+      artist_array = self.songs.collect do |song|
+        song.artist
+        #binding.pry
+     end
+     genre_array.uniq
+   end
+
 
 
   end
