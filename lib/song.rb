@@ -46,8 +46,9 @@ class Song
       @@all.detect do |song|
         if song.name == self
           song.name
+        end
+      end
     end
-  end
 
 
   end
