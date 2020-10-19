@@ -42,9 +42,9 @@ class Song
       new_song
     end
 
-    def self.find_by_name
+    def self.find_by_name(song)
       @@all.detect do |song|
-        self.song.name
+        song.name
     end
   end
 
