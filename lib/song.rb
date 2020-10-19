@@ -46,6 +46,7 @@ class Song
       @@all.detect each do |song|
         song.name == self
     end
+  end
 
 
   end
