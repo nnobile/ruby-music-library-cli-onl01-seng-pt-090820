@@ -44,7 +44,7 @@ class Genre
         song.artist
         #binding.pry
      end
-     genre_array.uniq
+     artist_array.uniq
    end
 
 
